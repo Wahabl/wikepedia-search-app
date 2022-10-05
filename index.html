@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <main>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
+  <title>Wikepedia search App</title>
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    />
+  <link
+      rel="shortcut icon"
+      href="./assets/img/wikipedia.png"
+      type="image/x-icon"
+    />
+</head>
+<body>
+<main>
+  <header class="header">
+    <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/657px-Wikipedia-logo-v2.svg.png" alt="Wikipedia Logo" />
+
+    <form class="search-form js-search-form">
+      <input placeholder="Type a keyword and press Enter to search" type="search" class="search-input js-search-input" autofocus />
+    </form>
+  </header>
+
+  <div class="loading-indicator">
+    <div class="sk-chase js-spinner hidden">
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+    </div>
+  </div>
+
+  <section class="search-results js-search-results"></section>
+</main>
+  
+<section class="search-results">
+</section>
+<div class="footer-content">
+<footer>
+   <ul class="socials">
+     <li> <a href="https://github.com/Wahabl" class="icon">
+  <i class="fab fa-github"></i>
+                            </a></li>
+     <li><a href="https://www.facebook.com/abdulwahabsiniya.lawal" class="icon">
+     <i class="fab fa-facebook-f"></i>
+                            </a></li>
+   </ul>
+<p class="name">Made with ❤️ by Abdulwahab</p>
+</footer>
+</div>
+</main>
+</body>
+</html>
